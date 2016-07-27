@@ -1,0 +1,70 @@
+body {
+  white-space: pre;
+  font-family: Consolas;
+  font-size:1.2em;
+  background:#333;
+  color:white;
+}
+
+.property {
+  font-weight: bold;
+  color:rgba(243,55,117,1);
+}
+
+.type-null {
+  color: rgba(174,129,250,1);
+}
+
+.type-boolean {
+  color: #e69138;
+}
+
+.type-number {
+  color: #6fa8dc;
+}
+
+.type-string {
+  color: rgba(173,222,57,1);
+}
+
+.callback-function {
+  color: gray;
+}
+
+.collapser:after {
+  content: "-";
+}
+
+.collapsed > .collapser:after {
+  content: "+";
+}
+
+.ellipsis:after {
+  content: " … ";
+}
+
+.collapsible {
+  margin-left: 2em;
+}
+
+.hoverable {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px;
+}
+
+.hovered {
+  background-color: rgba(33, 33, 33, 1);  
+}
+
+.collapser {
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+a{
+  text-decoration:underline;
+  color: #4a86e8;
+}
